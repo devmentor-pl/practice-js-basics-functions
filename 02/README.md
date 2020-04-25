@@ -4,9 +4,9 @@
 
 &nbsp;
 
-Napisz funkcję o nazwie `sayHellow`, która będzie przyjmować przez parametr imię osoby, z którą mamy się przywitać.
+Napisz funkcję o nazwie `sayHello`, która będzie przyjmować przez parametr imię osoby, z którą mamy się przywitać.
 
-Uruchomienie funkcji w sposób `sayHellow('devmentor.pl')` ma spowodować wyświetlenie w konsoli napisu: `Cześć devmentor.pl!`.
+Uruchomienie funkcji w sposób `sayHello('devmentor.pl')` ma spowodować wyświetlenie w konsoli napisu: `Cześć devmentor.pl!`.
 
 
 &nbsp;
