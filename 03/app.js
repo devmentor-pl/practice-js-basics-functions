@@ -1,13 +1,14 @@
-let counter = 0;
+let sum = 0;
 
+function addNumbers(a) {
 
-let showTime = function () {
-    counter++;
-    console.log('ilość wyświetlanej informacji to:' + '' + counter);
-    const time = new Date().toLocaleTimeString();
-    console.log(time);
-
-
+    for (i = 1; i < a + 1; i++) {
+        sum = sum + i;
+        // return sum;
+    }
+    return sum;
 }
 
-setInterval(showTime, 5000);
+
+addNumbers(4);
+console.log(sum)
