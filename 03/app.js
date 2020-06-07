@@ -1,4 +1,4 @@
-function addNumbers(a) {
+const addNumbers = function (a) {
 
     let sum = 0;
     for (i = 1; i < a + 1; i++) {
