@@ -5,9 +5,9 @@ const fun = function runTimer() {
   console.log(time);
   counter++;
 
+  const idInterval = setInterval(fun, 1000);
+
   if (counter >= 5) {
     clearInterval(idInterval)
   }
 };
-
-const idInterval = setInterval(fun, 1000);
