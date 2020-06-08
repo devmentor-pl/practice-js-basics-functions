@@ -1,13 +1,16 @@
 let counter = 0;
+let idInterval;
 
-
-let runTimmer = function () {
+let showTime = setInterval(function () {
     counter++;
     console.log('ilość wyświetlanej informacji to:' + ' ' + counter);
-    const time = new Date().toLocaleTimeString();
-    console.log(runTimmer);
+    const showTime = new Date().toLocaleTimeString();
+    console.log(showTime)
 
 
-}
+    if (counter >= 5) {
+        clearInterval(idInterval)
+    }
 
-setInterval(showTime, 5000);
+
+}, 5000)
