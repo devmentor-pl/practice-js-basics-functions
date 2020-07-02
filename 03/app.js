@@ -1,10 +1,10 @@
-const fn = function getSum() {
+const getSum = function(num) {
     let result = 0;
-    for (let i = 1; i <= 4; i++) {
+    for (let i = 1; i <= num; i++) {
         result = result + i;
     }
     console.log(result)
     return result
 }
 
-fn();
+getSum(4)
