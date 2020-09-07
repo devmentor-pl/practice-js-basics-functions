@@ -13,4 +13,4 @@ function showTime() {
 }
 
 
-const secInterval = setInterval(showTime, 1000)
+secInterval = setInterval(showTime, 1000)
