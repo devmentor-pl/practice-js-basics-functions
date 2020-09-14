@@ -13,4 +13,4 @@ function showTime() {
 }
 
 
-secInterval = setInterval(showTime, 1000)
+let secInterval = setInterval(showTime, 1000)
