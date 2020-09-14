@@ -1,7 +1,7 @@
-let sum = 0;
 
 const sumToNum = num => {
-  for(i = 1; i <= num; i++) {
+  let sum = 0;
+  for (let i = 1; i <= num; i++) {
     sum += i;
     console.log(i)
   }
