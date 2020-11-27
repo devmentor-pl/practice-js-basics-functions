@@ -1,20 +1,24 @@
 
 
 function sayHello(name) {
-    allTxt = 'Cześć ' + name + '!';
+    const allTxt = 'Cześć ' + name + '!';
     return allTxt;
 }
+/* zadanie */
+const allTxtResult_1 = sayHello('devmentor.pl');
+console.log(allTxtResult_1);
 
-sayHello('devmentor.pl');
-console.log(allTxt);
+
+
+/* zadanie dodatkowe (zabawa) */
 
 let i = 1;
 
 const numberPeople = parseInt(prompt('Podaj z iloma osobami chcesz się przywitać !!!'));
 
 while (i <= numberPeople) {
-    userName = prompt('Podaj imię ' + i + ' osoby');
-    sayHello(userName);
-    console.log(allTxt);
+    const userName = prompt('Podaj imię ' + i + ' osoby');
+    const allTxtResult_2 = sayHello(userName);
+    console.log(allTxtResult_2);
     i++;
 }
