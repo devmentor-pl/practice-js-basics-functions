@@ -1,4 +1,4 @@
-function sumToGiven(n) {
+sumToGiven = function (n) {
     let a = n;
     if(typeof(a) !== 'number') return null;
 
