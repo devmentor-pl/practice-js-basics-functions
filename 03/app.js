@@ -1,9 +1,14 @@
-let parametr = 4;
-
-const fn = function (sum) {
-    for (let i = 1; i <= parametr; i++) {
-        let x = console.log(sum);
+const getSum = function (num) {
+    if (typeof num !== 'number') {
+        return 0;
     }
-    return;
+
+    let sum = 0;
+    for (let i = 1; i <= num; i++) {
+        sum = sum + i;
+    }
+
+    return sum;
 }
-fn();
+
+console.log(getSum(5));
