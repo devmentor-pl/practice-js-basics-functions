@@ -1,12 +1,13 @@
 let counter = 0;
 
-const showTime = () => console.log((new Date()).toLocaleTimeString());
-showTime();
+const runTimer = () => console.log((new Date()).toLocaleTimeString());
+runTimer();
 
-const runTimer = setInterval(() => {
-    showTime();
-    if (++counter >= 5) {
-        clearInterval(runTimer);
+const refreshFiveTimes = setInterval(() => {
+    runTimer();
+    if (++counter >= 4) {
+        clearInterval(refreshFiveTimes);
     }
 }, 5000);
 
+// 
