@@ -10,7 +10,7 @@ W ciele tej funkcji wprowadź instrukcje, które pozwolą wyświetlić w konsoli
 
 Aby wyświetlić aktualny czas możesz skorzystać z poniższego kodu:
 ```
-const time = (new Date()).toLocaleDateString();
+const time = (new Date()).toLocaleTimeString();
 console.log(time);
 ```
 
