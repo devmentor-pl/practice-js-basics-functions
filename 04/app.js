@@ -8,9 +8,6 @@ function runTimer () {
              clearInterval(intervalId);
          }
          counter++;
-        
-    }, 5000);
-    
+    }, 5000);  
 }
-
 runTimer();
