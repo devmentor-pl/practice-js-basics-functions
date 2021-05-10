@@ -6,8 +6,9 @@ function runTimer () {
          console.log(`${new Date().toLocaleTimeString()} - wywołanie ${counter}`);
          if (counter === 5) {
              clearInterval(intervalId);
+         } else {
+            counter++;
          }
-         counter++;
     }, 5000);  
 }
 runTimer();
