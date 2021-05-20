@@ -1,7 +1,7 @@
 let result = 0;
 
 const sumTo = function(number) {
-    for(i = 1; i <= number; i++) {
+    for(let i = 1; i <= number; i++) {
         result += i;
     }
     return result;
