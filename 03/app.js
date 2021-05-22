@@ -1,7 +1,7 @@
 let result = 0;
 
 const sumCount = function (toNumberCount) {
-    for (i = 1; i < toNumberCount; i++) {
+    for (let i = 1; i < toNumberCount; i++) {
         result += i;
     }
     return result;
