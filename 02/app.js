@@ -1,3 +1,5 @@
-const name = 'devmentor.pl'
-
-function sayHello()
+function sayHello(text) {
+    console.log(text);
+    alert(text);
+}
+sayHello('Cześć Devmentor.pl')
