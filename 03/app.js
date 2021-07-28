@@ -1,9 +1,9 @@
-const sum = function (number) {
-    if ((typeof number !== 'number') || (number < 0)) {
+const sum = function (num) {
+    if ((typeof num !== 'number') || (num < 0)) {
         return 'Podaj liczbę większą lub równą 0!';
     }
     let acc = 0;
-    for (let i = 0; i <= number; i++) {
+    for (let i = 0; i <= num; i++) {
         acc += i;
     }
     return acc;
