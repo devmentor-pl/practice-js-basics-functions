@@ -2,16 +2,16 @@
 
 &nbsp;
 
-# `#03` JavaScript: Podstawy - funkcje
+# `#03` JavaScript: Podstawy – funkcje
 
-Tym razem Twoja funkcja ma być zadeklarowana jako wyrażenie funkcyjne (anonimowe).
+Tym razem Twoja funkcja ma być zadeklarowana w postaci anonimowego wyrażenia funkcyjnego.
 
-Funkcja ta będzie przymować jeden parametr, który będzie określał do jakiej kolejnej liczby ma zostać wykonane sumowanie. Jeśli parametr będzie równy `4` to funkcja ma zwrócić wartość `10` ponieważ `1+2+3+4=10`.Jak już pewnie się domyślasz wew. funkcji należy użyć pętli `for`.
+Niech funkcja ta przyjmuje jeden parametr, który będzie określał, do jakiej liczby ma zostać wykonane sumowanie. Jeśli parametr będzie równy `4`, to funkcja ma zwrócić wartość `10` ponieważ `1+2+3+4=10`. Jak już pewnie się domyślasz, wewnątrz funkcji należy użyć pętli `for`.
 
-Pamiętaj, że funkcja ma zwrócić wynik czyli musimy użyć `return`. Dopiero potem zwrócona wartość ma być wyświetlona w konsoli.
+Pamiętaj, że funkcja ma zwrócić wynik, dlatego należy użyć `return`. Dopiero potem zwrócona wartość ma zostać wyświetlona w konsoli.
 
 
-PS. Pamiętaj, aby odpowiednie nazwać funkcje. Nazwa ma jednoznacznie określać jakie zadanie funkcja realizuje.
+PS. Pamiętaj, aby zawsze odpowiednio nazywać funkcje. Nazwa ma jednoznacznie określać, jakie zadanie dana funkcja realizuje.
 
 
 &nbsp;
