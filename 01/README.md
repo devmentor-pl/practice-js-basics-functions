@@ -1,14 +1,15 @@
+
 > :star: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s1e04-js-basics` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/) oraz posiadaczy [kursu JavaScript](https://devmentor.pl/p/javascript-for-beginners/)) lub na [dedykowanej grupie fb](https://www.facebook.com/groups/155234921740033). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
 
-# `#01` JavaScript: Podstawy - funkcje
+# `#01` JavaScript: Podstawy – funkcje
 
-Napisz funkcję o nazwie `showTime` w pliku `app.js` i wywołaj ją (uruchom).
+W pliku `app.js` napisz funkcję o nazwie `showTime` i ją wywołaj (uruchom).
 
 W ciele tej funkcji wprowadź instrukcje, które pozwolą wyświetlić w konsoli informacje o aktualnej godzinie.
 
-Aby wyświetlić aktualny czas możesz skorzystać z poniższego kodu:
+Aby wyświetlić aktualny czas, możesz skorzystać z poniższego kodu:
 ```
 const time = (new Date()).toLocaleTimeString();
 console.log(time);
