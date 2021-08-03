@@ -2,9 +2,9 @@
 
 &nbsp;
 
-# JavaScript: Podstawy - funkcje
+# JavaScript: Podstawy – funkcje
 
-Funkcje pozwalają przestrzegać zasady [DRY](https://pl.wikipedia.org/wiki/DRY), która jest bardzo ważna w pisaniu kodu wysokiej jakości. Sprawdź czy dobrze je rozumiesz i potrafisz z nich korzystać w odpowiedni sposób!
+Funkcje pozwalają na przestrzeganie zasady [DRY](https://pl.wikipedia.org/wiki/DRY), która przyczynia się do tworzenia kodu wysokiej jakości. Sprawdź, czy rozumiesz działanie funkcji i potrafisz z nich korzystać!
 
 &nbsp;
 
