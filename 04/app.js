@@ -4,12 +4,19 @@ let idInterval;
 const runTimer = function() {
 
 
-let time = (new Date()).toLocaleTimeString();
+    let time = (new Date()).toLocaleTimeString();
 
-    console.log(time);
-    const breakFuction = counter < 5 ? counter ++ : clearInterval(idInterval);
+    if (counter > 5) {
+
+        clearInterval(idInterval);
+    }   
+    
+    else {
+        console.log(time);
+        counter++;
+    }
 
 }
 
 
-idInterval = setInterval(runTimer,5000);
+idInterval = setInterval(runTimer,1000);
