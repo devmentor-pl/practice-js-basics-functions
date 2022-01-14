@@ -1,14 +1,6 @@
-const addition= function(upTo) {
-    let x=upTo;
-    let result=0;
-        for(i=1; i<=x; i++) {
-            result=result+i;
-        }
-    return result;
+let upTo= 4;
+let sum=0;
+
+for(let i=0; i<=upTo; i++) {
+    sum+=i;
 }
-
-console.log(addition(4));
-
-
-
-
