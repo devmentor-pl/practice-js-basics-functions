@@ -1,16 +1,16 @@
 let counter = 0;
+let idInterval;
 
 let runTime = () => {
 
-    if (counter < 5) {
-        const time = (new Date()).toLocaleTimeString();
-        console.log(time);
-        counter++;
-    }
-    else {
-        clearInterval()
+    const time = (new Date()).toLocaleTimeString();
+    console.log(time);
+    counter++;
+
+    if (counter >= 5) {
+        clearInterval(idInterval)
         counter = 0;
     }
 }
 
-setInterval(runTime, 5000);
+idInterval = setInterval(runTime, 5000);
