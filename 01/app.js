@@ -3,4 +3,4 @@ function showTime() {
       console.log(time);
 }
 
-showTime()
+showTime();
