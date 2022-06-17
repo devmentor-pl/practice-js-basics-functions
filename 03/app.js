@@ -11,3 +11,15 @@ let result= function(stop){
 
 console.log(result(4))
 
+// const getSum = function(limit) {
+//     console.log(limit)
+
+//     for(let i=1; i<=limit; i++) {
+//         result = result + i
+//     }
+//     return result
+// }
+
+// const res1 = getSum(4)
+
+// const res2 = getSum(7)
