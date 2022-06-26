@@ -1,5 +1,5 @@
+const time = new Date().toLocaleTimeString();
 function showTime() {
-	const time = new Date().toLocaleTimeString();
 	console.log(time);
 }
 showTime();

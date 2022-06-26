@@ -1,10 +1,10 @@
-let sum = 0;
 const getSum = (el) => {
+	let sum = 0;
 	for (let i = 0; i <= el; i++) {
 		sum += i;
 	}
 	return sum;
 };
-getSum(4);
+const sum = getSum(4);
 
 console.log(sum);
