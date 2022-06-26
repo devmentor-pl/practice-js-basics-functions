@@ -1,9 +1,9 @@
 const getSum = (el) => {
-	let sum = 0;
+	let result = 0;
 	for (let i = 0; i <= el; i++) {
-		sum += i;
+		result += i;
 	}
-	return sum;
+	return result;
 };
 const sum = getSum(4);
 
