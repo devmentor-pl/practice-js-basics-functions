@@ -11,5 +11,4 @@ function result(c) {
 result(4);
 
 
-//dlaczego wyświetla wynik 10 a nie wszystkie pozostałe? 
-//jak przekształcić funkcję, zeby pokazywał: 1, 3, 6, 
+
