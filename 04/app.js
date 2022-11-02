@@ -3,7 +3,7 @@ let countInterval;
 
 function runTimer() {
     let currentTime = (new Date()).toLocaleTimeString()
-
+    counter++;
     console.log(currentTime);
 
     if(counter > 4) {
