@@ -1,8 +1,8 @@
 let sum = 0;
 
-const sumOfNumbers = function(msg) {
+const sumOfNumbers = function() {
 
-    const userInput = parseInt(prompt('Enter a number' , msg));
+    const userInput = parseInt(prompt('Enter a number'));
     
     console.log('The number is:' , userInput);
     return userInput;
