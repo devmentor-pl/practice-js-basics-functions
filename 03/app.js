@@ -1,40 +1,12 @@
-// const sumNumber = function (userNumber) {
-//     let sumNumber = 0;
-
-//     for (let i = 0; i <= userNumber; i++) {
-//         sumNumber += i;
-//     }
-//     return sumNumber;
-// }
-
-// const sumNumberFromUser = function (userInput) {
-//     const userNumber = userInput('Do jakiej liczby sumujemy?');
-
-//     const sum = sumNumber(userNumber);
-//     return sum;
-// }
-
-// const result = sumNumberFromUser(function (userNumber) {
-//     return parseInt(prompt(userNumber));
-// })
-
-// console.log(result);
-
-// Obie metody działają, ale szczerze to nie wiem, która lepsza. Generalnie mam lekki problem w zrozumieniu tego zagadnienia.
-
-const sumNumberFromUser = function (userInput) {
-    const userNumber = userInput('Do jakiej liczby sumujemy?');
-
-    let sumNumber = 0;
-
+function sumNumber(userNumber) {
+    let counter = 0;
     for (let i = 0; i <= userNumber; i++) {
-        sumNumber += i;
+        counter += i;
     }
-    return sumNumber;
+    return counter;
 }
 
-const result = sumNumberFromUser(function (userNumber) {
-    return parseInt(prompt(userNumber));
-})
+const userNumber = parseInt(prompt('Podaj liczbę'));
+const result = sumNumber(userNumber);
 
 console.log(result);
