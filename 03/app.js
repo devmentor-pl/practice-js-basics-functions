@@ -2,17 +2,16 @@
 
  const sumNumbers = function(number){
 
-    let result;
+    let result = 0;
 
     for( let i = 0; i<= number; i++){
 
-       i++
-       let add = i
-       result = add + i; 
+      
+       result = result + i; 
       
     }
 
-    return(result)
+    return result
 }
 
 console.log(sumNumbers(4))

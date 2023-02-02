@@ -5,14 +5,13 @@ counter = 1;
 
 function runTimer(){
 
-const time = (new Date()).toLocaleTimeString();
-console.log(time)
+    const time = (new Date()).toLocaleTimeString();
+    console.log(time)
 
-counter++
+    counter++
 
-if(counter > 5){
-    clearInterval(stopInterval)
-}
+        if(counter > 5){
+        clearInterval(stopInterval)}
 
 }
 
