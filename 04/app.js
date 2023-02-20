@@ -1,18 +1,14 @@
 let idInterval;
-let counter = 0;
+let counter = 1;
 
-const showCounter = function() {
-    console.log(counter);
-    counter++
-
-if(counter>5) {
-    clearInterval(idInterval);
-    }
-}
-
-idInterval = setInterval(showCounter, 5000);
-
-function runTimer() {
+const runTimer = function() {
     const time = (new Date()).toLocaleTimeString();
     console.log(time);
+    counter++;
+
+    if(counter>5) {
+        clearInterval(idInterval);
+        }
 }
+
+idInterval = setInterval(runTimer, 5000);
