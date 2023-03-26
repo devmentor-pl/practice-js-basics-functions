@@ -1,14 +1,16 @@
-let idInterval;
-let counter = 1;
 
-function runTimer() {
-    const time = (new Date()).toLocaleTimeString();
-    console.log(time)
-    counter++
+function runTimer(numbers, milisec) {
+    let counter = 1;
+    const idInterval = setInterval(function() {
+        const time = (new Date()).toLocaleTimeString();
+        console.log(time)
+        counter++
 
-    if(counter>5) {
-        clearInterval(idInterval)
-    }
+        if(counter > numbers) {
+            clearInterval(idInterval);
+        }
+    }, milisec)
+
 }
 
-idInterval = setInterval(runTimer, 5000);
+runTimer(5, 5000);
