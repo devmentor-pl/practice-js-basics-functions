@@ -1,9 +1,14 @@
 const getSum = function(limit) {
     console.log(limit)
 
+    let result = 0
+
     for (i=1; i<=limit; i++) {
-        console.log(i)
+        result = result + i  
     }
+
+    return result
 }
 
-getSum(4)
+const a = getSum(4)
+console.log(a)
