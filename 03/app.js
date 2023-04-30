@@ -1,12 +1,14 @@
-let result = 0;
 
 const sumCounter = function (num) {
-    for (let i = 1; i <= num; i++) {
+    let operations = 0;
+    let result = 0;
+for (let i = 1; i <= num; i++) {
+        operations = operations + ' + ' + i;
         result += i;
     }
+    console.log( operations = operations + ' = ' + result);
     return result
+  
 }
 
-sumCounter(8);
-console.log(result);
-//nie umiem znaleźć informacji jak wypisać wynik w ten sposób :`1+2+3+4=10`
+sumCounter(3);
