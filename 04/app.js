@@ -1,4 +1,5 @@
 const rounds = 5;
+const roundTime = 5000;
 
 function runTimer() {
 	let round = 0;
@@ -10,7 +11,7 @@ function runTimer() {
 		if (round === rounds) {
 			clearInterval(runTimerInterval);
 		}
-	}, 5000);
+	}, roundTime);
 }
 
 runTimer();
