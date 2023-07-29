@@ -3,6 +3,6 @@ const factorialNumber = function (num) {
 	for (let i = 0; i <= num; i++) {
 		sum += i;
 	}
-	return console.log(sum);
+	return sum;
 };
-factorialNumber(4);
+console.log(factorialNumber(4));
