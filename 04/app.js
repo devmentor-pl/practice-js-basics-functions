@@ -1,7 +1,4 @@
-const rounds = 5;
-const roundTime = 5000;
-
-function runTimer() {
+function runTimer(rounds, roundTime) {
 	let round = 0;
 
 	const runTimerInterval = setInterval(function () {
@@ -14,4 +11,4 @@ function runTimer() {
 	}, roundTime);
 }
 
-runTimer();
+runTimer(5,5000);
