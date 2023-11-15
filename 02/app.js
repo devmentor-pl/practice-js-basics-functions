@@ -1,4 +1,4 @@
-const sayHello = (name) => {
+function sayHello(name) {
   console.log(`Cześć ${name}`);
-};
-sayHello('Kasia');
+}
+sayHello('devmentor.pl');
