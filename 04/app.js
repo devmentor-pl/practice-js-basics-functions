@@ -1,10 +1,18 @@
 function runTimer() {
     console.log('start');
 
-    setInterval(function() {
+    let iter =0;
+    const idTimer = setInterval(function() {
         const time = (new Date()).toLocaleTimeString();
         console.log(time);
-    }, 10);
+
+        iter++;
+        console.log(iter);
+
+        if(iter === 5) {
+            clearInterval(idTimer);
+        }
+    }, 500);
 }
 
 runTimer();
