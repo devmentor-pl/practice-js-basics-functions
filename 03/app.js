@@ -2,7 +2,7 @@ const getSumToEndNumber = function (number) {
     console.log(number);
 
     let result = 0;
-    for (let i = 1; 1<= number; i++) {
+    for (let i = 1; i<= number; i++) {
         result = result + i;
     }
 
