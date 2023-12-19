@@ -3,8 +3,7 @@ const sumNum = function(num) {
     for (let i=1; i <= num; i++) {
         result += i;
     }
-    console.log(result);
     return result;
 }
 
-sumNum(4);
+console.log(sumNum(4));
