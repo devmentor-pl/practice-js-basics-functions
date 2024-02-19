@@ -1,16 +1,16 @@
-// jest błąd
-
 let idInterval;
+let counter = 0;
 
 const runTimer = function () {
-    for(let time = 1; time <= 5; time ++) {
-            const time = (new Date()).toLocaleTimeString();
-            console.log(time); 
-        }
-        
-        if(time === 5) {
-            clearInterval(idInterval);
-        }
+    const time = (new Date()).toLocaleTimeString();
+    console.log(time); 
+
+    counter ++;
+    console.log(counter);
+    if(counter === 5) {
+        clearInterval(idInterval);
+    }
 }
+
 
 idInterval = setInterval(runTimer, 5000);
