@@ -3,5 +3,4 @@ const showTime = () => {
 	console.log(time);
 };
 
-
-showTime()
+showTime();
