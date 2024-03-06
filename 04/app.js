@@ -17,7 +17,7 @@ function runTimer() {
 
 
 
-	}, 1000);
+	}, 5000);
 
 }
 
