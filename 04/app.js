@@ -4,7 +4,6 @@ function runTimer() {
     counter++;
     const time = (new Date()).toLocaleTimeString(); 
     console.log('Godzina: '+ time);
-    console.log(counter);
 
     if(counter > 4) {
         clearInterval(check);
