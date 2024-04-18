@@ -1,17 +1,15 @@
 function runTimer() {
     let counter = 0;
-    let intervalId;
-
-    function displayDate() {    
+    
+    const intervalId = setInterval(function displayDate() {    
         counter++;   
         const date = (new Date()).toLocaleTimeString();        
-        console.log(date);
+        console.log(date, counter);
         if (counter >= 5) {
             clearInterval(intervalId);
         }
-    }
+    }, 5000);
 
-    intervalId = setInterval(displayDate, 5000);
 }
 
 runTimer();
