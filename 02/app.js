@@ -1,5 +1,4 @@
 function sayHello(name) {
-	name = "devmentor.pl!";
-	console.log(`czesc ${name}`);
+	console.log(`hej ${name}`);
 }
-sayHello(name);
+sayHello('Sebastian')
