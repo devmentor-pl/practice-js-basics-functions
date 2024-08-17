@@ -1,16 +1,16 @@
 function runTimer() {
-    let counter = 0;
+  let counter = 0;
 
-    const intervalId = setInterval(function() {
-        const time = (new Date()).toLocaleTimeString();
-        console.log(time);
+  const intervalId = setInterval(function () {
+    const time = new Date().toLocaleTimeString();
+    console.log(time);
 
-        counter++;
+    counter++;
 
-        if (counter === 5) {
-            clearInterval(intervalId);
-        }
-    }, 5000);
+    if (counter === 5) {
+      clearInterval(intervalId);
+    }
+  }, 5000);
 }
 
 runTimer();
