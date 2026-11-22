@@ -1,11 +1,9 @@
-const numberToTen = function() {
+const numberToTen = function(limit) {
   let sum = 0;
-  for(let i=0; i<10; i++){
+  for(let i=0; i<=limit; i++){
     sum = sum + i;
-    if(sum === 10){
-      return sum;
-    }
-  }
+  } 
+  return sum;
 }
 
-console.log(numberToTen())
+console.log(numberToTen(4))
